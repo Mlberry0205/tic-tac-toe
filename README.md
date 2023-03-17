@@ -1,2 +1,2 @@
 # tic-tac-toe
-A game in which two players take turns in drawing either an ` O' or an ` X' in one square of a grid consisting of nine squares
+A game in which two players take turns in drawing either an 'O' or an  'X' in one square of a grid consisting of nine squares
