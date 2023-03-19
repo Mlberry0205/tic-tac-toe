@@ -90,3 +90,52 @@ h1 {
   left: 5%;
   transform: skewY(-45deg);
 }
+
+#box {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  box-sizing: border-box;
+  width: 250px;
+  height: 150px;
+  /* border: 5px solid #969696; */
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.winner-text {
+  color: rgb(243, 16, 208);
+}
+
+button {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 13px;
+  height: 30px;
+  background-color: #9147ff;
+  color: white;
+  padding: 0 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.x-hover:hover:after {
+  content:'X';
+}
+
+.o-hover:hover:after {
+  content: 'O';
+}
+
+
+
